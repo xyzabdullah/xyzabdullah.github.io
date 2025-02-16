@@ -225,10 +225,11 @@ section{
  font-weight: 700;
  box-shadow: 0 0 40px rgb(109,67, 0);
 }
-@media (max-width:884px) {
-    body{
-        overflow-y: visible;
-    }
+@media (max-width: 768px) {  
+    body { font-size: 14px; }  
+    .container { width: 100%; padding: 10px; }  
+}
+   
     nav .logo{
         position: absolute;
         top: 16px;
