@@ -225,8 +225,12 @@ section{
  font-weight: 700;
  box-shadow: 0 0 40px rgb(109,67, 0);
 }
-@media (max-width: 768px) {  
-    body { font-size: 14px; }  
+@media (max-width: 767px) {
+  .social-icons {
+    display: block;
+  }
+}
+  
     .container { width: 100%; padding: 10px; }  
 }
    
@@ -262,3 +266,4 @@ section{
         margin-bottom: 0px;
     }
 }
+
